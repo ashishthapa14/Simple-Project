@@ -1,10 +1,10 @@
-package com.start;
+package org.studyeasy.SpringStarter;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SimpleProjectApplicationTests {
+class SpringStarterApplicationTests {
 
 	@Test
 	void contextLoads() {
