@@ -208,7 +208,7 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection wa
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
 	... 92 more
-2026-03-22 22:53:49.149465+05:30 database: flush
+2026-03-22 23:03:35.883950+05:30 database: flush
 org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The write format 2 is smaller than the supported format 3 [2.4.240/5]" [50000-240]
 	at org.h2.message.DbException.get(DbException.java:212)
 	at org.h2.message.DbException.convert(DbException.java:407)
@@ -289,7 +289,7 @@ Caused by: org.h2.mvstore.MVStoreException: The write format 2 is smaller than t
 	at org.h2.mvstore.FileStore.start(FileStore.java:919)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:294)
 	... 61 more
-2026-03-22 22:53:49.163005+05:30 database: opening C:/Users/user/Documents/projects/Simple Project/db/blogdb
+2026-03-22 23:03:35.937757+05:30 database: opening C:/Users/user/Documents/projects/Simple Project/db/blogdb
 org.h2.message.DbException: Unsupported database file version or invalid file header in file "C:/Users/user/Documents/projects/Simple Project/db/blogdb.mv.db" [90048-240]
 	at org.h2.message.DbException.get(DbException.java:212)
 	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:158)
@@ -367,7 +367,7 @@ Caused by: org.h2.mvstore.MVStoreException: The write format 2 is smaller than t
 	at org.h2.mvstore.MVStore$Builder.open(MVStore.java:2164)
 	at org.h2.mvstore.db.Store.<init>(Store.java:133)
 	... 59 more
-2026-03-22 22:54:04.321392+05:30 database: flush
+2026-03-22 23:03:44.116373+05:30 database: flush
 org.h2.message.DbException: General error: "org.h2.mvstore.MVStoreException: The write format 2 is smaller than the supported format 3 [2.4.240/5]" [50000-240]
 	at org.h2.message.DbException.get(DbException.java:212)
 	at org.h2.message.DbException.convert(DbException.java:407)
@@ -448,7 +448,7 @@ Caused by: org.h2.mvstore.MVStoreException: The write format 2 is smaller than t
 	at org.h2.mvstore.FileStore.start(FileStore.java:919)
 	at org.h2.mvstore.MVStore.<init>(MVStore.java:294)
 	... 61 more
-2026-03-22 22:54:04.340548+05:30 database: opening C:/Users/user/Documents/projects/Simple Project/db/blogdb
+2026-03-22 23:03:44.145144+05:30 database: opening C:/Users/user/Documents/projects/Simple Project/db/blogdb
 org.h2.message.DbException: Unsupported database file version or invalid file header in file "C:/Users/user/Documents/projects/Simple Project/db/blogdb.mv.db" [90048-240]
 	at org.h2.message.DbException.get(DbException.java:212)
 	at org.h2.mvstore.db.Store.convertMVStoreException(Store.java:158)
